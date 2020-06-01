@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
+
+* {
+    box-sizing: border-box
+}
+
+body {
+
+    font-family: 'Questrial', sans-serif;
+    background-color: #666;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-height: 100vh;
+    margin: 0;
+
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: #424874
+}
+
+.section {
+    width: 100%;
+    display: flex;
+
+
+}
+
+.side {
+    width: 30%;
+    background-color: #f4eeff;
+
+
+
+}
+
+hr {
+    width: 100px;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 10px;
+    padding-top: 10px;
+    margin-left: 50px;
+    color: #424874;
+
+}
+
+hr:hover {
+    color: #d92027;
+    transform: rotate(10deg)
+}
+
+.main {
+    width: 70%;
+    background-color: #a6b1e1;
+
+
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: #424874
+}
+
+h1 {
+    color: #424874;
+    padding: 50px 0 0 50px
+}
+
+.container {
+    padding: 50px
+}
+
+.screen {
+    cursor: pointer;
+    width: 50%;
+    background-color: #000 !important;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.controls {
+    background-color: #333;
+    color: #fff;
+    width: 50%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.controls .btn {
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+.controls .fa-play {
+    color: #28a888;
+}
+
+.controls .fa-stop {
+    color: #dc3445;
+}
+
+.controls .fa-play {
+    color: #28a888;
+}
+
+.controls .fa-pause {
+    color: #fff;
+}
+
+.controls .timestamp {
+    color: #fff;
+    font-weight: bold;
+    margin-left: 10px;
+
+}
+
+.btn:focus {
+    outline: 0;
+}
+
+@media(max-width: 800px) {
+
+    .screen,
+    .controls {
+        width: 90%;
+    }
+}
